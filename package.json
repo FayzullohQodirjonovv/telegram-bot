@@ -2,12 +2,12 @@
   "name": "project",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "bot.js",
   "scripts": {
     "bot": "node bot.js",
     "admin-api": "node admin-server.js",
     "admin-web": "node serve-admin.js",
-    "start": "npm run bot & npm run admin-api & npm run admin-web"
+    "start": "node bot.js"
   },
   "keywords": [],
   "author": "",
